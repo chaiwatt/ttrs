@@ -18,7 +18,7 @@ class CreateMenusTable extends Migration
             $table->string('name',250)->comment('ชื่อเมนูเว็บไซต์ ภาษาไทย');
             $table->string('slug');
             $table->string('engname',250)->comment('ชื่อเมนูเว็บไซต์ ภาษาอังกฤษ')->nullable();
-            $table->string('engslug',250)->unique()->nullable();
+            $table->string('engslug',250)->nullable();
             $table->text('url')->comment('ลิงค์ของหน้าเพจ')->nullable();
             $table->integer('parent_id')->default(0);
             $table->char('hide')->default(0)->comment('ซ่อน/แสดงเมนู');
