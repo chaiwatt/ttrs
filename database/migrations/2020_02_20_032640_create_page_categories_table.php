@@ -16,7 +16,7 @@ class CreatePageCategoriesTable extends Migration
         Schema::create('page_categories', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name',250)->comment('ชื่อหมวดหมู่เพจ');
-            $table->string('slug',250)->unique();
+            $table->string('slug')->unique();
             $table->timestamps();
         });
     }

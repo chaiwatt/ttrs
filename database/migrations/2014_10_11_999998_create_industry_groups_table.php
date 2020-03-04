@@ -16,7 +16,7 @@ class CreateIndustryGroupsTable extends Migration
         Schema::create('industry_groups', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name',250)->comment('กลุ่มธุรกิจ เช่น เกษตรและอุตสาหกรรมอาหาร');
-            $table->string('slug',250)->unique();
+            $table->string('slug')->unique();
             $table->integer('parent_id')->default(0);
             $table->timestamps();
         });
