@@ -16,7 +16,7 @@ class CreateMenusTable extends Migration
         Schema::create('menus', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name',250)->comment('ชื่อเมนูเว็บไซต์ ภาษาไทย');
-            $table->string('slug')->unique();
+            $table->string('slug');
             $table->string('engname',250)->comment('ชื่อเมนูเว็บไซต์ ภาษาอังกฤษ')->nullable();
             $table->string('engslug',250)->unique()->nullable();
             $table->text('url')->comment('ลิงค์ของหน้าเพจ')->nullable();
