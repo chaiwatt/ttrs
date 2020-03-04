@@ -1,0 +1,35 @@
+
+
+/* @font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Light.eot');
+    src: url('../fonts/Kanit-Light.woff') format('woff'),
+         url('../fonts/Kanit-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+body{
+    font-size:14px;
+    font-family: "Kanit" !important;
+}
+
+.kanit{
+    font-family: "Kanit" !important;
+    font-weight: 300 !important;
+}
+
+.topkanit{
+    font-size:14px !important;
+    font-family: "Kanit" !important;
+    font-weight: 300 !important;
+}
+
+.text16{
+    font-family: "Kanit" !important;
+    font-size:16px;
+    font-weight: 300 !important;
+}
+
+
+
