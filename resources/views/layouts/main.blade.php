@@ -7,7 +7,7 @@
 <meta name="description" content="Themeforest Template Polo">
 <link rel="icon" type="image/png" href="{{asset('assets/images/favicon.png')}}">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>TTRS</title>
+<title>TTRS | สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.)</title>
 <link href="{{asset('assets/css/plugins.css')}}" rel="stylesheet">
 <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
 <link href="{{asset('assets/css/extend.css')}}" rel="stylesheet">
